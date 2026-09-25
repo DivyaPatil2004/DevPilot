@@ -88,7 +88,17 @@ npm run dev
 docker-compose up -d
 ```
 
-> ⚠️ Add your GitHub OAuth and OpenAI API credentials to `application.properties` / `.env` before running.
+### Environment Variables
+Create a `.env` file (or set these as environment variables) before running the backend:
+
+| Variable | Description |
+|---|---|
+| `DB_URL` | PostgreSQL connection URL (defaults to local Docker setup) |
+| `DB_USERNAME` | Database username |
+| `DB_PASSWORD` | Database password |
+| `OPEN_API-KEY` | Your OpenAI API key |
+
+> ⚠️ Add your GitHub OAuth and OpenAI API credentials to `application.properties` / `.env` before running. Never commit real credentials — only environment variable references should appear in tracked files.
 
 ---
 
