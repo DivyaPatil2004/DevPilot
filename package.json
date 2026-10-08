@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@streamdown/code": "^2.0.0",
+    "streamdown": "^2.7.0"
+  }
+}

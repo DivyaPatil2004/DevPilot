@@ -31,3 +31,19 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Spring configuration containing secrets
+src/main/resources/application.properties
+
+# Node
+node_modules/
+
+# Build output
+.next/
+out/
