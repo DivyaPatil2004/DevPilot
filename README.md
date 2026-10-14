@@ -98,7 +98,7 @@ Create a `.env` file (or set these as environment variables) before running the 
 | `DB_PASSWORD` | Database password |
 | `OPEN_API-KEY` | Your OpenAI API key |
 
-> ⚠️ Add your GitHub OAuth and OpenAI API credentials to `application.properties` / `.env` before running. Never commit real credentials — only environment variable references should appear in tracked files.
+> ⚠️ Add your GitHub OAuth and OpenAI API credentials to `application.properties` / `.env` before running. 
 
 ---
 
